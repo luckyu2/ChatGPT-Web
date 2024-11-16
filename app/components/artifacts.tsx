@@ -190,11 +190,11 @@ export function ArtifactsShareButton({
               />,
             ]}
           >
-            <div>
-              <a target="_blank" href={shareUrl}>
-                {shareUrl}
-              </a>
-            </div>
+            {/*<div>*/}
+            {/*  <a target="_blank" href={shareUrl}>*/}
+            {/*    {shareUrl}*/}
+            {/*  </a>*/}
+            {/*</div>*/}
           </Modal>
         </div>
       )}
