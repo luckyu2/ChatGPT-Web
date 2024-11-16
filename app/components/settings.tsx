@@ -1446,10 +1446,10 @@ export function Settings() {
                   text={Locale.Settings.Update.GoToUpdate}
                   onClick={() => clientUpdate()}
                 />
-              ) : (
-                <Link href={updateUrl} target="_blank" className="link">
-                  {Locale.Settings.Update.GoToUpdate}
-                </Link>
+              ) :(<link/>
+                // <Link href={updateUrl} target="_blank" className="link">
+                //   {Locale.Settings.Update.GoToUpdate}
+                // </Link>
               )
             ) : (
               <IconButton
