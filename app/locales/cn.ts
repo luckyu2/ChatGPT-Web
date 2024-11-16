@@ -72,8 +72,8 @@ const cn = {
       Stop: "停止响应",
       ToBottom: "滚到最新",
       Theme: {
-        auto: "自动主题",
         light: "亮色模式",
+        auto: "自动主题",
         dark: "深色模式",
       },
       Prompt: "快捷指令",
@@ -201,7 +201,7 @@ const cn = {
     Update: {
       Version: (x: string) => `当前版本：${x}`,
       IsLatest: "已是最新版本",
-      CheckUpdate: "检查更新",
+      CheckUpdate: " ",
       IsChecking: "正在检查更新...",
       FoundUpdate: (x: string) => `发现新版本：${x}`,
       GoToUpdate: "前往更新",
@@ -311,11 +311,11 @@ const cn = {
 
     Access: {
       SaasStart: {
-        Title: "使用 NextChat AI",
-        Label: "（性价比最高的方案）",
+        Title: "谢谢使用 MetChat AI",
+        Label: " ",
         SubTitle:
-          "由 NextChat 官方维护, 零配置开箱即用，支持 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
-        ChatNow: "立刻对话",
+          "本客户端支持xAI, OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
+        ChatNow: "以xAI Grok beta API开发",
       },
       AccessCode: {
         Title: "访问密码",
@@ -624,7 +624,7 @@ const cn = {
     Revert: "恢复上下文",
   },
   Discovery: {
-    Name: "发现",
+    Name: " ",
   },
   FineTuned: {
     Sysmessage: "你是一个助手",
