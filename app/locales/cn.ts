@@ -9,9 +9,9 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? `😆 对话遇到了一些问题，不用慌:
-       \\ 找Met_Yu给你帮忙`
+       \\ 找Met_Yu给你帮忙吧`
       : `😆 对话遇到了一些问题，不用慌:
-       \ 找Met_Yu给你帮忙`,
+       \\找Met_Yu给你帮忙吧`,
   },
   Auth: {
     Return: "返回",
