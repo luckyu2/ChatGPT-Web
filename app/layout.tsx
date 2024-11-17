@@ -10,10 +10,10 @@ import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-   title: "Met_Chat",
+   title: "Met_Chat_AI",
    description: "Your personal Met_Chat  Bot.",
    appleWebApp: {
-    title: "Met_Chat",
+    title: "Met_Chat_AI",
     statusBarStyle: "default",
   },
 };
