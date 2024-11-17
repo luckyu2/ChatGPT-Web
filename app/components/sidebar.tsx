@@ -231,8 +231,8 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="MetChat xAI"
-        subTitle="用xAI 驱动,比GPT4更强,有问题联系Met_Yu."
+        title="MetChat"
+        subTitle="采用xAI驱动,有问题联系Met_Yu."
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
@@ -248,13 +248,6 @@ export function SideBar(props: { className?: string }) {
                 navigate(Path.Masks, { state: { fromHome: true } });
               }
             }}
-            shadow
-          />
-          <IconButton
-            icon={<DiscoveryIcon />}
-            text={shouldNarrow ? undefined : Locale.Discovery.Name}
-            className={styles["sidebar-bar-button"]}
-            onClick={() => setShowPluginSelector(true)}
             shadow
           />
         </div>
@@ -305,15 +298,6 @@ export function SideBar(props: { className?: string }) {
                   shadow
                 />
               </Link>
-            </div>
-            <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-                <IconButton
-                  aria={Locale.Export.MessageFromChatGPT}
-                  icon={<GithubIcon />}
-                  shadow
-                />
-              </a>
             </div>
           </>
         }
