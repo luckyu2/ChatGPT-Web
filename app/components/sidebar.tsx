@@ -232,7 +232,7 @@ export function SideBar(props: { className?: string }) {
     >
       <SideBarHeader
         title="MetChat-AI"
-        subTitle="支持xAI，chatGPT4o等大模型,有问题联系Met_Yu."
+        subTitle="支持xAI，OpenAI,Claude3.5等大模型,有问题联系Met_Yu."
         logo={<ChatGptIcon />}
         shouldNarrow={shouldNarrow}
       >
