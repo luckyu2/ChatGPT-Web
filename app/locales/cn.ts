@@ -312,7 +312,7 @@ const cn = {
         Label: " ",
         SubTitle:
           "本客户端支持xAI, OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
-        ChatNow: "感谢马斯克，可以免费使用xAI Grok beta的API",
+        ChatNow: "基于ChatGPTNextWeb二次开发",
       },
       AccessCode: {
         Title: "访问密码",
